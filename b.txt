@@ -1,0 +1,42 @@
+ens33: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 3.3.3.160  netmask 255.255.255.0  broadcast 3.3.3.255
+        inet6 fe80::68c1:c682:609d:4c3d  prefixlen 64  scopeid 0x20<link>
+        inet6 fe80::8405:ed11:b280:bdcf  prefixlen 64  scopeid 0x20<link>
+        inet6 fe80::189d:dc8f:4a4:e9cf  prefixlen 64  scopeid 0x20<link>
+        ether 00:0c:29:b0:34:cf  txqueuelen 1000  (Ethernet)
+        RX packets 80958  bytes 32240499 (30.7 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 11807  bytes 895535 (874.5 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 4  bytes 328 (328.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4  bytes 328 (328.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 52:54:00:22:a3:d8  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 52:54:00:b1:be:7e  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr2: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 52:54:00:7b:84:41  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
